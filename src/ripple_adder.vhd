@@ -63,4 +63,5 @@ begin
         S     => S(3),
         Cout  => Cout
     );
+
 end Behavioral;
