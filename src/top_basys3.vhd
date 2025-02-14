@@ -88,7 +88,7 @@ begin
 	---------------------------------
 	
 	led(3 downto 0) <= w_S;
-    led(15)<= w_Cout;
+	led(15)<= w_Cout;
 	
 	-- CONCURRENT STATEMENTS --------
 	led(14 downto 4) <= (others => '0'); -- Ground unused LEDs
